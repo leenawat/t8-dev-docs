@@ -11,3 +11,5 @@ mkdir docs
 # create a markdown file
 echo '# Hello VuePress' > docs/README.md
 ```
+
+## run dev

@@ -2,19 +2,46 @@ module.exports = {
   base: "/",
   port: 5555,
   dest: "site",
-  title: 't8-dev-docs',
+  title: 'T8 Dev Docs',
   description: 'Everyone can develop projects independently, quickly and efficiently！',
   themeConfig: {
     nav: [
-      { text: 'Tools', link: '/tools/' },
+      { text: 'SA', link: '/sa/' },
+      { text: 'Data setup', link: '/data-setup/' },
+      { text: 'Frontend', link: '/frontend/' },
+      { text: 'Backend', link: '/backend/' },
+      { text: 'Server', link: '/server/' },
     ],
     sidebar: [
       {
-        title: 'Tools',
-        path: '/tools/',
+        title: 'SA',
+        path: '/sa/',
+        collapsable: false
+      },
+      {
+        title: 'Data setup',
+        path: '/data-setup/',
+        collapsable: false
+      },
+      {
+        title: 'Frontend',
+        path: '/frontend/',
+        collapsable: false,
+      },
+      {
+        title: 'Backend',
+        path: '/backend/',
+        collapsable: false,
+        children: [
+          '/backend/code',
+          '/backend/tools'
+        ]
+      },
+      {
+        title: 'Server',
+        path: '/server/',
         collapsable: false
       }
-
     ]
   }
 }
