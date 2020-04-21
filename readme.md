@@ -13,3 +13,5 @@ echo '# Hello VuePress' > docs/README.md
 ```
 
 ## run dev
+
+npm run docs:dev
