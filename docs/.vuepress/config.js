@@ -1,5 +1,5 @@
 module.exports = {
-  base: "/t8-dev-docs",
+  base: "/t8-dev-docs/",
   port: 5555,
   dest: "site",
   title: 'T8 Dev Docs',
